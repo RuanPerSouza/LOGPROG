@@ -1,14 +1,14 @@
-programa{
-	funcao inicio(){
-		inteiro idade
+programa{ // Inicio do programa
+	funcao inicio(){ //inicio da execução do programa 
+		inteiro idade //variável idade d tipo inteiro 
 
-		escreva("Digite sua idade:")
-		leia (idade)
+		escreva("Digite sua idade:") //texto para pedior que o usúario digite sua idade
+		leia (idade)// inserir a idade
 
-		se(idade >= 18){
-			escreva("Maior de idade.\n")}
-		senao {
-			escreva("Menor de idade.\n")
+		se(idade >= 18){//aqui começa a condição SE
+			escreva("Maior de idade.\n")}// texto para maior de idade
+		senao {// aqui a começa a condiçã SENAO / OU termina a condição SE
+			escreva("Menor de idade.\n")// texto para menor de idade
 		}
 	}
 }
