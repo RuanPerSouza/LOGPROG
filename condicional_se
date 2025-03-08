@@ -1,0 +1,14 @@
+programa{
+	funcao inicio(){
+		inteiro numero
+
+		escreva("Digite sua idade:")
+		leia (numero)
+
+		se (numero >= 18){
+			escreva("Maior de idade.\n")
+		}senao {
+			escreva("Menor de idade.\n")
+		}
+	}
+}
