@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		real nota1,  nota2, media //variavel da funçao
+		
+		escreva ("Digite a nota1:") // valor da primeira nota
+		leia (nota1)
+
+		escreva ("Digite a nota2: ") // valor da segunda nota
+		leia (nota2)
+
+		media = (nota1 + nota2) / 2  // Calculo da da nota1 e nota2 
+		escreva ("A media é:", media) // respopsta da media 
+	}
+}
