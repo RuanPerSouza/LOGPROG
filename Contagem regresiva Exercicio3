@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio()
+	{ 	
+	 	inteiro contador // variavel do programa 
+
+	 	escreva("Digite um número:") //Digitar um numero a sua escolha
+	 	leia(contador)
+	 	
+		enquanto (contador >= 0){ //inicio de loop
+			escreva(contador, "\n")//digitrar os numeros em contagem regresiva
+			contador = contador - 1 
+			para (inteiro i = 0; i <100000000; i++) {} // velocidade da contagem 
+   		 }
+
+       escreva ("Acabou o tempo")
+    }
+}
