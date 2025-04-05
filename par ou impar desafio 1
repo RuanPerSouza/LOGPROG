@@ -1,0 +1,20 @@
+programa
+{
+
+	funcao inicio()
+// inicio do prograna 
+	{
+		inteiro numero // variavel inteira
+
+		escreva("Escreva um numero: ")// Digitar qualquer numero para verificar se e impar ou par 
+		leia (numero)
+
+		 se (numero % 2 == 0) { // sera par qualquer numero que for  divisivo por dois 
+		 	escreva("Numero e par")
+
+		 }senao{
+		 		escreva ("Numero e impar") // quelquer dque nâo seja divisivo por 2 sera impar 
+		 	}
+		 }
+	}
+	
